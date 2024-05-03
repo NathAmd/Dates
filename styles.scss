@@ -1,0 +1,58 @@
+.section{
+    padding-top: 10vw;
+
+    justify-content: center;
+    display: flex;
+
+    flex-wrap: wrap;
+    table{
+
+        border-collapse:collapse;
+        width: 30vw;
+        height: 40vw;
+
+        th{
+            color: beige;
+            font-size: 7vw;
+        }
+
+    .dayName{
+        background-color: rgb(202, 0, 0);
+        // border: {
+        //     left: solid 2px rgb(135, 0, 0);
+        //     right: solid 2px rgb(135, 0, 0);
+        //     top: solid 2px rgb(135, 0, 0);
+        // };
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .years{
+        background-color: rgb(202, 0, 0);
+            // border: {
+            //     left: solid 2px rgb(135, 0, 0);
+            //     right: solid 2px rgb(135, 0, 0);
+            //     bottom: solid 2px rgb(135, 0, 0);
+            // };
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .day , .month{
+        background-color: rgb(124, 124, 124)
+    }
+
+    }
+.time {
+    height: 33vw;
+    width: 40vw;
+    vertical-align: middle;
+    text-align: center;
+    //border: solid 1px;
+    padding-top: 7vw;
+    font-size: 8vw;
+    font-weight: 900;
+        .seconde{
+        font-size: 5vw;
+        }
+    }
+}
+

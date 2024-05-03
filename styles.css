@@ -1,0 +1,38 @@
+.section {
+  padding-top: 10vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section table {
+  border-collapse: collapse;
+  width: 30vw;
+  height: 40vw;
+}
+.section table th {
+  color: beige;
+  font-size: 7vw;
+}
+.section table .dayName {
+  background-color: rgb(202, 0, 0);
+  border-radius: 25px 25px 0px 0px;
+}
+.section table .years {
+  background-color: rgb(202, 0, 0);
+  border-radius: 0px 0px 25px 25px;
+}
+.section table .day, .section table .month {
+  background-color: rgb(124, 124, 124);
+}
+.section .time {
+  height: 33vw;
+  width: 40vw;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 7vw;
+  font-size: 8vw;
+  font-weight: 900;
+}
+.section .time .seconde {
+  font-size: 5vw;
+}/*# sourceMappingURL=styles.css.map */
